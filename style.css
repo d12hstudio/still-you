@@ -1,0 +1,9 @@
+:root{--ink:#111;--sub:#555;--bg:#fff;--line:#111;--mark:#c0201a}
+@media (prefers-color-scheme:dark){:root{--ink:#eee;--sub:#aaa;--bg:#111;--line:#eee;--mark:#ff6b63}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,"Apple SD Gothic Neo",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:24px;border-bottom:2px solid var(--line);padding-bottom:8px}
+h2{font-size:18px;margin-top:32px}
+a{color:var(--mark)}
+.note{color:var(--sub);font-size:14px}
+li{margin:6px 0}
