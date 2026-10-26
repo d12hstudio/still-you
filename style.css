@@ -7,3 +7,4 @@ h2{font-size:18px;margin-top:32px}
 a{color:var(--mark)}
 .note{color:var(--sub);font-size:14px}
 li{margin:6px 0}
+.shots{display:flex;gap:12px;margin:16px 0}.shots img{width:calc(50% - 6px);height:auto;border:1px solid var(--line)}
